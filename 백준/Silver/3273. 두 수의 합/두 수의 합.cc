@@ -15,7 +15,7 @@ int main() {
         s.insert(ary[i]);
     }
     cin >> x;
-    sort(ary.begin(), ary.end());
+
     for(int i = 0; i < N; i++) {
         if(s.find(x-ary[i]) != s.end()) {
             result++;
